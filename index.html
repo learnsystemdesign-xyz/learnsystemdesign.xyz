@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>learnsystemdesign.xyz</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles/main.css">
+  <script src="scripts/app.js" type="module" defer></script>
+</head>
+<body>
+  <header>
+    <nav class="nav-bar">
+      <span class="site-name"><span class="logo-learn">learn</span><span class="logo-system">system</span><span class="logo-design">design</span><span class="logo-xyz">.xyz</span></span>
+      <button id="menu-toggle" class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+      <ul id="nav-links"></ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h1><span class="logo-learn">learn</span><span class="logo-system">system</span><span class="logo-design">design</span><span class="logo-xyz">.xyz</span></h1>
+    <p class="tagline">Learn system design and distributed systems with curated resources, guides, and real-world examples.</p>
+  </section>
+
+  <input id="filter-input" type="text" placeholder="Filter resources..." aria-label="Filter resources by title or description">
+
+  <main id="content"></main>
+
+  <footer>
+    <p>
+      <a href="https://github.com/learnsystemdesign-xyz" target="_blank" rel="noopener noreferrer">GitHub</a>
+      &middot;
+      <a href="https://substack.com/@learnsystemdesignxyz" target="_blank" rel="noopener noreferrer">Substack</a>
+    </p>
+  </footer>
+</body>
+</html>

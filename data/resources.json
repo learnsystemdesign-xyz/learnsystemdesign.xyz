@@ -1,0 +1,172 @@
+{
+  "resources": [
+    {
+      "title": "Designing Data-Intensive Applications",
+      "description": "Comprehensive book covering distributed systems fundamentals, replication, partitioning, and consistency models.",
+      "type": "book",
+      "url": "https://dataintensive.net/",
+      "topic": "Fundamentals"
+    },
+    {
+      "title": "System Design Primer",
+      "description": "An organized collection of resources to help you learn how to build systems at scale.",
+      "type": "article",
+      "url": "https://github.com/donnemartin/system-design-primer",
+      "topic": "Fundamentals"
+    },
+    {
+      "title": "MIT 6.824: Distributed Systems",
+      "description": "Graduate-level course on distributed systems covering fault tolerance, replication, and consistency.",
+      "type": "course",
+      "url": "https://pdos.csail.mit.edu/6.824/",
+      "topic": "Fundamentals"
+    },
+    {
+      "title": "Scalability for Dummies",
+      "description": "A beginner-friendly series explaining the core concepts behind building scalable web applications.",
+      "type": "article",
+      "url": "https://www.lecloud.net/tagged/scalability",
+      "topic": "Scalability"
+    },
+    {
+      "title": "The Art of Scalability",
+      "description": "Practical guide to scaling organizations, processes, and technology for growing companies.",
+      "type": "book",
+      "url": "https://www.artofscalability.com/",
+      "topic": "Scalability"
+    },
+    {
+      "title": "Harvard CS75 - Scalability Lecture",
+      "description": "David Malan's lecture on scalability covering vertical and horizontal scaling, caching, and load balancing.",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=-W9F__D3oY4",
+      "topic": "Scalability"
+    },
+    {
+      "title": "Introduction to Modern Load Balancing",
+      "description": "Overview of modern load balancing and proxying concepts including L4 vs L7 balancing.",
+      "type": "article",
+      "url": "https://blog.envoyproxy.io/introduction-to-modern-network-load-balancing-and-proxying-a57f6ff80236",
+      "topic": "Load Balancing"
+    },
+    {
+      "title": "NGINX Load Balancing Documentation",
+      "description": "Official NGINX documentation on HTTP load balancing methods and configuration.",
+      "type": "documentation",
+      "url": "https://docs.nginx.com/nginx/admin-guide/load-balancer/http-load-balancer/",
+      "topic": "Load Balancing"
+    },
+    {
+      "title": "HAProxy Documentation",
+      "description": "Comprehensive documentation for HAProxy, a widely used open-source load balancer and proxy server.",
+      "type": "documentation",
+      "url": "https://www.haproxy.org/#docs",
+      "topic": "Load Balancing"
+    },
+    {
+      "title": "Caching Strategies and How to Choose the Right One",
+      "description": "Explains common caching strategies like cache-aside, write-through, and write-behind with trade-offs.",
+      "type": "article",
+      "url": "https://codeahoy.com/2017/08/11/caching-strategies-and-how-to-choose-the-right-one/",
+      "topic": "Caching"
+    },
+    {
+      "title": "Redis Documentation",
+      "description": "Official documentation for Redis, a popular in-memory data store used for caching and messaging.",
+      "type": "documentation",
+      "url": "https://redis.io/docs/",
+      "topic": "Caching"
+    },
+    {
+      "title": "Design of a Modern Cache",
+      "description": "Deep dive into the architecture of Caffeine, a high-performance Java caching library.",
+      "type": "article",
+      "url": "http://highscalability.com/blog/2016/1/25/design-of-a-modern-cache.html",
+      "topic": "Caching"
+    },
+    {
+      "title": "CMU Database Course - Intro to Database Systems",
+      "description": "Andy Pavlo's comprehensive course on database internals covering storage, indexing, and query processing.",
+      "type": "course",
+      "url": "https://15445.courses.cs.cmu.edu/",
+      "topic": "Databases"
+    },
+    {
+      "title": "Use The Index, Luke",
+      "description": "A guide to database indexing and SQL performance for developers, covering B-trees and query optimization.",
+      "type": "article",
+      "url": "https://use-the-index-luke.com/",
+      "topic": "Databases"
+    },
+    {
+      "title": "Database Internals",
+      "description": "Book exploring the internals of modern database and storage engine architectures.",
+      "type": "book",
+      "url": "https://www.databass.dev/",
+      "topic": "Databases"
+    },
+    {
+      "title": "Apache Kafka Documentation",
+      "description": "Official documentation for Apache Kafka, a distributed event streaming platform for message queues and real-time data pipelines.",
+      "type": "documentation",
+      "url": "https://kafka.apache.org/documentation/",
+      "topic": "Message Queues"
+    },
+    {
+      "title": "RabbitMQ Tutorials",
+      "description": "Step-by-step tutorials for learning message queue patterns with RabbitMQ including work queues and pub/sub.",
+      "type": "documentation",
+      "url": "https://www.rabbitmq.com/tutorials",
+      "topic": "Message Queues"
+    },
+    {
+      "title": "Understanding Message Queues",
+      "description": "Video explaining message queue concepts, use cases, and comparisons between popular message brokers.",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=5-Rq4-PZlew",
+      "topic": "Message Queues"
+    },
+    {
+      "title": "CAP Theorem Explained",
+      "description": "Clear explanation of the CAP theorem and its implications for distributed system design choices.",
+      "type": "article",
+      "url": "https://www.ibm.com/topics/cap-theorem",
+      "topic": "Distributed Systems Concepts"
+    },
+    {
+      "title": "Raft Consensus Algorithm Visualization",
+      "description": "Interactive visualization of the Raft consensus algorithm for understanding leader election and log replication.",
+      "type": "tool",
+      "url": "https://raft.github.io/",
+      "topic": "Distributed Systems Concepts"
+    },
+    {
+      "title": "Distributed Systems for Fun and Profit",
+      "description": "Free online book covering distributed systems fundamentals including time, order, replication, and impossibility results.",
+      "type": "book",
+      "url": "http://book.mixu.net/distsys/",
+      "topic": "Distributed Systems Concepts"
+    },
+    {
+      "title": "Designing Instagram - System Design Case Study",
+      "description": "Walkthrough of designing a photo-sharing service covering storage, feeds, and scaling considerations.",
+      "type": "article",
+      "url": "https://www.educative.io/courses/grokking-modern-system-design-interview-for-engineers-managers/system-design-instagram",
+      "topic": "Real-World System Design Examples"
+    },
+    {
+      "title": "How Netflix Serves Millions of Users",
+      "description": "Video exploring Netflix's architecture including CDN, microservices, and resilience patterns.",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=psQzyFfsUGU",
+      "topic": "Real-World System Design Examples"
+    },
+    {
+      "title": "Grokking the System Design Interview",
+      "description": "Course with real-world system design examples including URL shortener, Twitter, and Dropbox designs.",
+      "type": "course",
+      "url": "https://www.designgurus.io/course/grokking-the-system-design-interview",
+      "topic": "Real-World System Design Examples"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "learnsystemdesign.xyz",
+  "version": "1.0.0",
+  "description": "A curated resource hub for learning system design and distributed systems",
+  "type": "module",
+  "scripts": {
+    "test": "vitest --run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "fast-check": "^4.6.0",
+    "vitest": "^4.1.1"
+  }
+}
